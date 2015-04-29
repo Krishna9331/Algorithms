@@ -16,5 +16,9 @@ public class InsertionSortTest {
 
             assertTrue(sortedElements[i] <= sortedElements[i + 1]);
         }
+        System.out.println("Sorted Array is: ");
+        for (int i = 0; i < sortedElements.length; i++) {
+            System.out.print(sortedElements[i] +" ");
+        }
     }
 }
