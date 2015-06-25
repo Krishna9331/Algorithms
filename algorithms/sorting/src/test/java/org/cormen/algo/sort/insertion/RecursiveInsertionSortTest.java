@@ -1,4 +1,4 @@
-package org.cormen.algo.merge;
+package org.cormen.algo.sort.insertion;
 
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -7,26 +7,22 @@ import org.slf4j.LoggerFactory;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by mishrk3 on 5/11/2015.
+ * Created by mishrk3 on 6/1/2015.
  */
-public class MergeSortTest {
-
-    Logger logger = LoggerFactory.getLogger(MergeSortTest.class);
-
+public class RecursiveInsertionSortTest {
+    Logger logger = LoggerFactory.getLogger(RecursiveInsertionSortTest.class);
     @Test
-    public void testMergeSortAsc() {
-
-        MergeSort ms = new MergeSort();
-
-        int[] elements = {5, 2, 4, 7, 1, 3, 2, 6};
+    public void testSortAsc() {
+        RecursiveInsertionSort is = new RecursiveInsertionSort();
+        int[] elements = {5, 2, 4, 6, 1, 3};
         logger.info("Testing Ascending order using Insertion Sort for {}", elements);
-        int[] sortedElements = ms.mergeSortAsc(elements);
+        int[] sortedElements = is.sortAscRecursive(elements);
         test(sortedElements);
         print(sortedElements);
 
         int[] ele = {31, 41, 59, 26, 41, 58};
         logger.info("Testing Ascending order using Insertion Sort for {}", ele);
-        int[] sortedEle = ms.mergeSortAsc(ele);
+        int[] sortedEle = is.sortAscRecursive(ele);
         test(sortedEle);
         print(sortedEle);
     }
@@ -42,6 +38,4 @@ public class MergeSortTest {
         }
         logger.info("Test passed...");
     }
-
 }
-

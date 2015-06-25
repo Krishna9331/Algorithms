@@ -4,6 +4,7 @@
     <groupId>org.cormen.algo</groupId>
     <artifactId>algorithms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>Algorithms</name>
     <description>Algorithms Based on Cormen</description>
 
@@ -28,6 +29,11 @@
         </dependency>
 
     </dependencies>
+
+    <modules>
+        <module>sorting</module>
+        <module>searching</module>
+    </modules>
 
     <build>
         <plugins>

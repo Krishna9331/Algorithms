@@ -1,4 +1,4 @@
-package org.cormen.algo.merge;
+package org.cormen.algo.sort.merge;
 
 import org.junit.Test;
 import org.slf4j.Logger;

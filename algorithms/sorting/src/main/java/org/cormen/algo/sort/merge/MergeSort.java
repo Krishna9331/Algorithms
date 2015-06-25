@@ -1,4 +1,4 @@
-package org.cormen.algo.merge;
+package org.cormen.algo.sort.merge;
 
 import static java.lang.Double.POSITIVE_INFINITY;
 

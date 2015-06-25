@@ -1,4 +1,4 @@
-package org.cormen.algo.insertion;
+package org.cormen.algo.sort.insertion;
 
 import org.junit.Test;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package org.cormen.algo.merge;
+package org.cormen.algo.sort.merge;
 
 /**
  * Created by mishrk3 on 6/1/2015.
