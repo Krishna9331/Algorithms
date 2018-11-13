@@ -33,6 +33,7 @@
     <modules>
         <module>sorting</module>
         <module>searching</module>
+        <module>dynamic-programming</module>
     </modules>
 
     <build>
