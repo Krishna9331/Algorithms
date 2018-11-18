@@ -21,8 +21,8 @@ import static java.lang.Math.max;
  */
 public class RodCutting {
 
-    public int rodCuttingBottomUpApproach(int [] price, int length) {
-        int[] resultTable = new int[length + 1];
+    public int rodCuttingBottomUpApproach(final int [] price, final int length) {
+        final int[] resultTable = new int[length + 1];
         int val = MIN_VALUE;
         for(int i = 1; i <= length; i++) {
             for (int j = 1; j <= i; j++) {
